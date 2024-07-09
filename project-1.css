@@ -1,0 +1,250 @@
+.flux {
+        position: absolute;
+        padding-left: 500px;
+        width: 800px;
+        height: 100px;
+        display: flex; 
+        /* gap: 10px; */
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        margin-bottom: 3%;
+
+    }
+.but1{
+    width:120px;
+    height:200px; 
+     color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px ;
+    background-image: url('Mermaid1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    
+
+}
+.but2{
+    width:120px;
+    height:200px;
+     color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px ;
+    background-image: url('devara2.jpg');
+    background-size: cover;
+    backdrop-filter: blur(3px);
+     background-repeat: no-repeat;
+}
+
+
+.but3{ 
+     width:120px;
+    height:200px; 
+    color: rgba(245, 245, 245, 0.86);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px ;
+    background-image: url('panda7.jpg');
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    background-repeat: no-repeat;
+}
+.but4{
+    width:120px;
+    height:200px; 
+     color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px ;
+    background-image: url('avatar10.jpg');
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    background-repeat: no-repeat;
+} 
+
+ .image
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+body{
+    width: 100%;
+    margin-left:0;
+    margin-right: 0;
+    padding-left:0;
+    padding-right:0;
+    background-color: rgb(6, 81, 81);
+    /* background-attachment: fixed; */
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* 
+.body
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+} */
+.logo{
+   font-size: 40px;
+   color: #ffffff;
+   letter-spacing: 1px;
+   font-weight: 800;
+
+
+}
+.but{
+    padding-top: 200px;
+    padding-left: 300px;
+    
+}
+button{
+    border: 3px solid rgb(223, 219, 219);
+    border-radius: 4px;  
+    /* transition: transform ease 0.2s; */
+    /* filter: blur(1px); */
+   
+}
+button:hover{
+    transform: translateY(-20px);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 20px;
+    word-spacing: 30px;
+    font-family: sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f4f0f0;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f40606;
+    text-decoration: underline;
+    font-size: 35px;
+}
+.search-container {
+    padding-right:1;
+}
+.search-container::placeholder{
+    color: #ffffff;
+}
+.search-container i{ 
+    /* position: absolute;*/
+    transform: translateY(-50%);
+    left: 10px;
+    padding-bottom: 10px; 
+     color: #ffffff; 
+    /* top: 50%;*/
+    border-right: 1px solid #ffffff; 
+ }
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    
+}
+.content{
+    position: relative;
+    max-width: 550px;
+    display: none;
+    visibility: hidden;
+    transform: scale(0);
+    transition: 0.5s;
+
+}
+.content.active{
+    display: block;
+    visibility:visible;
+    transform: scale(1);
+    transition: 0.5s;
+    margin-bottom: 100px;
+    backdrop-filter: blur(10px);
+
+}
+.movie{
+    width: 250px; 
+}
+.banner .content h4{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+}
+.banner .content h4 span{
+    padding: 0 10px;
+    border-right: #ffffff;
+}
+.banner .content h4 span:first-child{
+    padding-left: 0;
+}
+.banner .content h4 span:last-child{
+    padding-right: 0;
+}
+.banner .content p{
+    font-size: len;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #ffffff;
+    margin: 10px 0;
+}
+.banner .content .butt{
+    position: relative;
+}  
+ .banner .content .butt a{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    background: var(--primary);
+    color: #fbf1f1;
+    padding: 6px 20px;
+    text-decoration: none;
+     font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}  
+
+

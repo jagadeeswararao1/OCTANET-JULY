@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project-1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="body" id="bannerimage">
+        <div class="b">
+            <div class="container"> 
+                <h3 class="logo">@imovies</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Adults</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Trend</a></li>
+                        <li><a href="#">Mylist</a></li>
+                    </ul>
+                </nav>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search movies..." class="search">
+                    <input type="button" value="search" style="background-color: blue;">
+                </div>
+            </div>
+
+            <div class="banner">
+                <div class="content active">
+                    <h4>
+                        <span>2023</span><span><i>12+</i></span>
+                        <span>2h 14min</span><span>Romance</span>
+                    </h4>
+                    <p>
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt,itaque eaque porro,
+                        natus doloribus fugiat enim esse repellat alias nulla adipisci aliquid, 
+                       distinctio in. Assumenda eaque dicta quibusdam tempora laudantium?
+
+                    </p> 
+                    <div class="butt">
+                        <a href="#"><i class='bx bx-play'></i>watch</a>
+                        <a href="#"><i class='bx bx-plus-medical' ></i>My List</a>
+                    </div> 
+                </div>
+                <div id="flux" class="flux">
+                    <div></div>
+                    <button id="btnImage1" onclick="changeBackgroundImage('url(Mermaid.jpeg)')" class="but1"></button>
+                    <button id="btnImage2" onclick="changeBackgroundImage('url(devara9.webp)')" class="but2"></button>
+                    <button id="btnImage3" onclick="changeBackgroundImage('url(ku.png)')" class="but3"></button>
+                    <button id="btnImage4" onclick="changeBackgroundImage('url(avatar01.jpg)')" class="but4"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="project-1.js"></script>
+</body>
+</html>
